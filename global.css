@@ -33,9 +33,9 @@
     font-size: 18px;
 }
 
-.img-test {
-    background-image: var(--cta-house);
-    background-size: cover;
-    width: 200px;
-    height: 200px;
+.link {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--dark-green);
 }
