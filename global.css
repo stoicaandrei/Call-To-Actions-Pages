@@ -70,3 +70,29 @@
     color: #213220;
     border-color: #213220;
 }
+
+.input {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    border-radius: 4px;
+    border: none;
+
+    flex: 1;
+
+    background-color: var(--light-grey);
+
+    width: 300px;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #A0CD9E;
+}
+
+.input:hover {
+    outline: none;
+    box-shadow: 0 0 0 2px #A0CD9E;
+}
