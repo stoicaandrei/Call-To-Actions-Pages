@@ -83,16 +83,37 @@
     flex: 1;
 
     background-color: var(--light-grey);
+    border: 1px solid var(--light-grey);
 
     width: 300px;
 }
 
 .input:focus {
     outline: none;
-    box-shadow: 0 0 0 2px #A0CD9E;
+    border: 1px solid #A0CD9E;
 }
 
 .input:hover {
     outline: none;
-    box-shadow: 0 0 0 2px #A0CD9E;
+    border: 1px solid #A0CD9E;
+}
+
+.input-group {
+    width: 400px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input-group > .input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    border-right-width: 0;
+}
+
+.input-group > .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
