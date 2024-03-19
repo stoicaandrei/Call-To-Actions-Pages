@@ -15,6 +15,10 @@
     --cta-house: url("https://link.tenxbase.com/cta-house");
 }
 
+body {
+    margin: 0;
+}
+
 /* Tipografie */
 .h1-text {
     font-family: "Inter", sans-serif;
